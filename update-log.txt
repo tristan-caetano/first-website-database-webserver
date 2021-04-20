@@ -1,0 +1,9 @@
+# Website Update Log
+
+## Initial Creation: 1.0:
++ Created a basic website using HTML for markup, CSS to make it pretty, and JavaScript for function
++ Added text to understand lists
++ Added button that chenges the theme of the website
+
+## Known Bugs of 1.0:
+Button that changes theme only uses CSS assets when clicked
