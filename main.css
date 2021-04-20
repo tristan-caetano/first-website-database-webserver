@@ -1,0 +1,70 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body{
+    background: var(--bg)
+}
+
+h1{
+    font-family: "Comic Sans MS";
+    font-size: 75px;
+}
+
+h2{
+    font-family: "Castellar";
+    font-size: 75px;
+} #msg{
+    font-family: algerian;
+    font-size: 50px;
+}
+
+li{
+    font-family: chiller;
+    font-size: 30px;
+}
+
+.l1{
+    list-style: square;
+}
+
+#ass{
+    font-family: algerian;
+    font-size: 50px;
+}
+
+
+.dark-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnFontColor: var(--white);
+    --btnBg: var(--black);
+
+}
+
+.light-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnFontColor: var(--black);
+    --btnBg: var(--white);
+
+}
+
+.btn:focus  {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    outline-style: none; 
+  }
