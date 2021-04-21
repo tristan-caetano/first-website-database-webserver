@@ -7,3 +7,8 @@
 
 ## Known Bugs of 1.0:
 Button that changes theme only uses CSS assets when clicked
+
+## Beginning Database Communication: 1.1:
++ Created a PHP script that can create queries
++ Created username and password text fields in HTML, values will be saved in JS
++ Created login button that saves the values to JS
