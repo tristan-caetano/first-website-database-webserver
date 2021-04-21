@@ -20,7 +20,9 @@ h1{
 h2{
     font-family: "Castellar";
     font-size: 75px;
-} #msg{
+} 
+
+#msg{
     font-family: algerian;
     font-size: 50px;
 }
